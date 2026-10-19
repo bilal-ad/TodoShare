@@ -1,0 +1,16 @@
+services:
+  backend:
+    image: todo-backend
+    build: ./To-Do-Backend
+    ports:
+      - "5000:5000"
+    environment:
+      MONGO_URI: "mongodb+srv://todoUser:Bilal100!@cluster0.h9ktqb9.mongodb.net/todoapp?retryWrites=true&w=majority&appName=Cluster0"
+
+  frontend:
+    image: todo-frontend
+    build: ./To-Do-App
+    ports:
+      - "5173:5173"
+    depends_on:
+      - backend

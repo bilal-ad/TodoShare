@@ -1,0 +1,10 @@
+.Überschrift {
+  position: absolute;
+  top: 20px;         /* Abstand von oben */
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+}

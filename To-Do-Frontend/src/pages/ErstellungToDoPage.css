@@ -1,0 +1,37 @@
+.Kategorie-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.Kategorie-Auswahl {
+  width: 100%;
+  padding: 20px 12px;
+  border: 1.5px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background: white;
+  outline: none;
+}
+
+.button-erstellen {
+  margin-top: auto;
+  margin-bottom: 35px;
+}
+
+.Input-ToDo {
+  padding: 25px 14px;
+  border: 1.5px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-top: 10px;
+ }
+
+ .Überschriften {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 450;
+ }

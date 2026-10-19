@@ -1,0 +1,43 @@
+.Kategorie-row {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.Kategorie-Auswahl {
+  width: 100%;
+  padding: 20px 12px;
+  border: 1.5px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  background: white;
+  outline: none;
+}
+
+.button-speichern {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.button-loeschen {
+  margin-top: 10px;
+  background-color:#ff4d4d; 
+  margin-bottom: auto;
+}
+
+.Input-ToDo {
+  padding: 25px 14px;
+  border: 1.5px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+  margin-top: 10px;
+ }
+
+ .Überschriften {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 450;
+ }

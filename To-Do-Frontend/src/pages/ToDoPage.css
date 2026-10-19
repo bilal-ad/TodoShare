@@ -1,0 +1,41 @@
+.checkbox-row {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.checkbox-row:hover {
+  color: #999;
+}
+.button-neuesToDo { 
+  margin-top: auto;
+  margin-bottom: 35px;
+}
+
+.button-loeschen {
+  margin-top: 10px;
+  background-color:#ff4d4d; 
+  margin-bottom: auto;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+} 
+
+.share-button {
+  background: none;
+  border: none;
+  color: #007bff;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: right;
+}
+
+.share-button:hover {
+  text-decoration: underline;
+}
